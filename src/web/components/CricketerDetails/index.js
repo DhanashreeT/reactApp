@@ -12,7 +12,7 @@ const CricketerDetails = (props) => {
     <div>
       <Col md={6}>
         <FormComponent label='Name' data={props.cricketerData.name}/>
-        <FormComponent label='Date Of Birth' data={props.cricketerData.dob}/>
+        <FormComponent label='Date Of Birthday' data={props.cricketerData.dob}/>
         <FormComponent label='ODI Runs' data={props.cricketerData.odiRun}/>
         <FormComponent label='Test Runs' data={props.cricketerData.testRun}/>
         <FormComponent label='IPL Runs' data={props.cricketerData.iplRun}/>
